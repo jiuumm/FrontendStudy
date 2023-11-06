@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="회원가입.css">
+    <script src="회원가입.js"></script>
+    <script src="https://kit.fontawesome.com/a32916f00e.js" crossorigin="anonymous"></script>
+  </head>
+  <div class = "entire">
+    <div class="wrapper__header">
+        <br>
+    <div class="assignment">🌌밍뤂의 숲 회원가입🌌</div>
+
+<div class="wrapper__body">
+  <div class="email" id="email">*<i class="fa-solid fa-envelope"></i>이메일<input type="text"placeholder="이메일을 입력해주세요" name="" id="email"></div>
+  <br> <br>
+  <div class="line"></div>
+  <br>
+  <div class="name" id="name">*<i class="fa-solid fa-signature"></i>이름
+    <input type="text"placeholder="이름을 입력해주세요" name="" id="name"></div>
+  <br> <br>
+  <div class="line"></div> <br>
+  <div class="pw" id="pw">*<i class="fa-solid fa-user"></i>비밀번호<input type="password"placeholder="비밀번호를 입력해주세요" name="" id="pw"></div>
+  <br> <br>
+  <div class="line"></div> <br>
+  <div class="pwCheck" id="pwCheck">*<i class="fa-solid fa-check"></i>비밀번호확인<input type="password"placeholder="비밀번호를 다시 입력해주세요" name="" id="pwCheck"></div>
+  <br> <br>
+  <div class="line"></div>
+  <br>
+  <i class="fa-solid fa-phone"></i>
+  <div class = "phone">
+    
+    <div class="phoneNum"><input type="text" name="" id="ph1" oninput="ph1() " maxlength="3"> </div>-
+    <div class="phoneNum"><input type="text" name="" id="ph2" oninput="ph2()" maxlength="4"></div>-
+    <div class="phoneNum"><input type="text" name="" id="ph3" maxlength="4"></div>
+
+  </div>
+  <br>
+  <div class="auth" >
+    <div class="authNum" id="target">000000</div>
+    <div class="authBtn" onclick="auth()"><button>인증번호전송</button></div>
+    </div>
+<div class="Time">
+    <div class="timer" id="timer">3:00</div>
+    <div class="finish" id="finish"><button>인증완료</button></div>
+</div>
+<br>
+  <div class="gender">
+    <input type="radio" name="gender" id="femail" >여성
+    <input type="radio" name="gender" id="male"> 남성
+</div>
+<br>
+<div class="mbti">
+    <div class="mbti1" >
+        <input type="text"placeholder="MBTI를 입력해주세요" name="" id="mbti1" ></div>
+        <br>
+        <div class = "button">
+            <button class = "mbtiButton"id="mbtiButton" onclick="mbti()">MBTI 버튼</button>
+            <br>
+            <div class = "mbtiResult" id="mbtiResult" >당신의 PLANET은?!</div>
+        </div>
+        </div>
+
+    <br>
+
+<div class="line"></div>
+<br>
+<button id="assignResult" onclick="result()"> 가입하기</button>
+</div> </div>
+    
+  </body>
+</html>
