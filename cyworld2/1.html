@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>미니홈피::사이좋은 사람들, 싸이월드</title>
+    <link rel="stylesheet" href="1.css" />
+    <script
+      src="https://kit.fontawesome.com/a32916f00e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="1.js"></script>
+  </head>
+  <body>
+    <div class="background">
+      <div class="outerbox">
+        <div class="wrapper">
+          <div class="wrapper__left">
+            <div class="wrapper__left__header">
+              <div class="today">
+                <span>TODAY</span
+                ><!--나중에 자바 스크립트 때문에!-->
+                <span>0</span>
+                <span>| TOTAL</span>
+                <span>12345</span>
+              </div>
+            </div>
+            <div class="wrapper__left__body">
+              <div class="left__body__header">
+                <div class="left__body__header__gray"></div>
+                <div class="left__body__header__line"></div>
+              </div>
+              <div class="left__body__profile">
+                <div class="ele"><i class="fa-solid fa-user"> NAME</i></div>
+                <br />
+                <div class="ele"><i class="fa-solid fa-phone"> phone</i></div>
+                <br />
+                <div class="ele">
+                  <i class="fa-solid fa-envelope"> E-mail</i>
+                </div>
+                <br />
+                <div class="ele">
+                  <i class="fa-solid fa-star"> instagram</i>
+                </div>
+              </div>
+              <br /><br /><br /><br />
+              <div class="left__body__footer">
+                <div class="feeling">오늘의 기분</div>
+                <div class="feeling2">
+                  <form action="#">
+                    <select name="feeling" id="">
+                      <option value="기쁨">기쁨😀</option>
+                      <option value="화남">화남😤</option>
+                      <option value="슬픔">슬픔🥲</option>
+                      <option value="졸림">졸림😴</option>
+                    </select>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="wrapper__right">
+            <div class="wrapper__right__header">
+                <div class="wrapper__right__header__f1">
+                    밍뤂 행성으로...🌌</div>
+                <div class="wrapper__right__header__f2">
+                    사생활보호설정 </div>
+
+            </div>
+            <div class="wrapper__right__body">
+                <div class="wrapper__right__body_f">
+                    <div class="wrapper__right__body__f1">GAME</div>
+                    <div class="wrapper__right__body__f2">TODAY CHOICE</div>
+                </div>
+                <div class="line2">
+
+                </div>
+                <div class="lay">
+                    <div class="wrapper__right__body_lay1">
+                        <div class="img1">
+                          <img src="./img/word.png" alt="">
+                        </div>
+    
+                        <div class="끝말잇기">끝말잇기</div>
+                        
+                        <div class="제시어">제시어:<span id="word"> 코드캠프</span></div> 
+                        <br>
+                        <div class="검색" id = "search">
+                            <input type="textbox" id="myword" placeholder="단어를 입력하세요." id="">
+                            <button class ="search" onclick = "startWord()">입력</button>
+                           
+                        </div>
+                        <br>
+                        <div class="결과" id = "result">결과</div>
+
+                    </div>
+                    <br>
+                    <div class="wrapper__right__body_lay1">
+                        <div class="img1"><img src="./img/lotto.png" alt=""></div>
+                        <div class="끝말잇기">LOTTO</div>
+                        
+                        <div class="제시어">버튼을 누르세요.</div> 
+                        <div class ="rectangle">                      
+                          <div class = "lotto">
+                            <span id="1">3</span>
+                            <span id="2">5</span>
+                            <span id="3">10</span>
+                            <span id="4">24</span>
+                            <span id="5">30</span>
+                            <span id="6">34</span>
+                         </div>
+                        </div>
+                        <button class="game__lotto__button" onclick="selectNum()">                            
+                           추첨
+                        </button>
+                        <div id="button_result">결과</div>
+                        <br>
+
+                    </div>
+                </div>
+
+            </div>
+          </div>  
+             
+  </body>
+</html>
