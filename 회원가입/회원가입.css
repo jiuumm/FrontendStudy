@@ -1,0 +1,102 @@
+.entire {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper__header {
+  width: 670px;
+  height: 1100px;
+  flex-shrink: 0;
+  border-radius: 80px;
+  border: 1px solid #aacdff;
+  background: #fff;
+  box-shadow: 7px 7px 39px 0px rgba(0, 104, 255, 0.25);
+}
+.assignment {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 60px;
+  width: 466px;
+  color: #0068ff;
+  font-family: Noto Sans CJK KR;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.wrapper__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pw {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pwCheck {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.authNum {
+  margin-left: 100px;
+}
+.authBtn {
+  margin-left: 10px;
+}
+.Time {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.finish {
+  margin-left: 10px;
+}
+.gender {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  width: 470px;
+  height: 0.998px;
+  flex-shrink: 0;
+  background: #e6e6e6;
+}
