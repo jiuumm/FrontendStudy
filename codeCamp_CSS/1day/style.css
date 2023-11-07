@@ -1,0 +1,52 @@
+/* .box1 {
+  background-color: beige;
+  width: 400px;
+  height: 300px;
+  padding: 30px;
+  margin: 30px;
+  border: 3px solid black;
+} */
+
+/* div {
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+}
+.box1 {
+  padding: 50px;
+  border: 1px solid blue;
+} */
+.container {
+  background-color: gray;
+}
+
+.box1 {
+  /*content box-sizing*/
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 3px solid blue;
+  box-sizing: content-box;
+  padding: 50px;
+}
+.box2 {
+  /*border box-sizing:우리의 뇌가 인지하는 박스 사이징*/
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 3px solid red;
+  box-sizing: border-box;
+  padding: 50px;
+}
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 3px solid green;
+  padding: 50px;
+}
+.text {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+}
